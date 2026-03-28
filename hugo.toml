@@ -1,0 +1,15 @@
+baseURL = "https://sullivansoftdev.com/"
+title = "Sullivan Softdev"
+theme = "paper"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+
+[permalinks]
+  [permalinks.page]
+    blog = "/blog/:year/:month/:day/:slug/"
