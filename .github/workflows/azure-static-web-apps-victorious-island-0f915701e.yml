@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://victorious-island-0f915701e.2.azurestaticapps.net/"
+        run: hugo --minify --baseURL "https://sullivansoftdev.com/"
 
       - name: Deploy
         id: builddeploy
